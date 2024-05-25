@@ -32,7 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(backgroundColor:kBackgroundColor,title: const Text("Smart Irrigation Readings"),),
+      appBar: AppBar(backgroundColor:kBackgroundColor,title: const Text("Smart Irrigation Readings", style: TextStyle(color: Colors.white),),),
       body:   StreamBuilder<QuerySnapshot<Sensor>>(
       stream: sensorRef.snapshots(),
       builder: (context, snapshot) {
@@ -82,33 +82,9 @@ class _HomeScreenState extends State<HomeScreen> {
             SliverFillRemaining(
               hasScrollBody: false,
               child: Column(
-                children: [
-                  Flexible(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            collectionName,
-                            style: const TextStyle(color: Colors.white),
-                          ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            data.docs.first.id,
-                            style: const TextStyle(color: Colors.white),
-                          ),
-                        ),
-                        const SizedBox(
-                          height: 30,
-                        ),
-                        Center(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.center,
+                 crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
-                              MySensorCard(
+                                MySensorCard(
                                 value: data.docs.first.data().humidity,
                                 unit: '%',
                                 name: 'Humidity',
@@ -117,7 +93,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   'assets/images/humidity_icon.png',
                                 ),
                                 trendData: rhList!,
-                                linePoint: Colors.transparent,
+                                linePoint: Colors.blue,
                               ),
                               const SizedBox(
                                 height: 20,
@@ -159,12 +135,11 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                       ],
                     ),
-                  ),
-          ]),
-                  ),
-                  ],),
+                  );
+  }),
+                  );
             
-  );}));}}
+  }}
 
      
     
