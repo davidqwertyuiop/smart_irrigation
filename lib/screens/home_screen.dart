@@ -64,6 +64,15 @@ class _HomeScreenState extends State<HomeScreen> {
           rhList!.removeAt(0);
         }
 
+        if (soilList == null) {
+          soilList = List.filled(5, data.docs.first.data().soilMoisture, growable: true);
+        } else {
+         soilList!.add(data.docs.first.data().soilMoisture);
+         soilList!.removeAt(0);
+        }
+
+        final bool ledState = data.docs.first.data().ledState;
+
  
       
         return Padding(
@@ -122,8 +131,19 @@ class _HomeScreenState extends State<HomeScreen> {
                                 ),
                                 trendData: tempList!,
                                 linePoint: Colors.redAccent,
-                              )
-                            ],
+                              ),
+                              const SizedBox(height: 20),
+                              MySensorCard(
+                                value: data.docs.first.data().temperature,
+                                unit: '%',
+                                name: 'Soil Moisture',
+                                assetImage: const AssetImage(
+                                  'assets/images/SoilMoistures.png',
+                                ),
+                                trendData: soilList!,
+                                linePoint: Colors.green,
+                              ),
+                              ],
                           ),
                         ),
                       ],

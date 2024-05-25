@@ -19,11 +19,15 @@ class Sensor {
             soilMoisture: json['SoilMoisture'] == null
                 ? 0.0
                 : double.parse(json['SoilMoisture']! as String),
+            ledState: json['LED_PIN_CONTROL1'] == null
+                ? false
+                : json['LED_PIN_CONTROL1'] as bool,
         );
 
   final double humidity;
   final double temperature;
   final double soilMoisture;
+  final bool ledState;
 
 
   Map<String, Object?> toJson() {
@@ -31,6 +35,7 @@ class Sensor {
       'Humidity': humidity,
       'Temperature': temperature,
       'SoilMoisture': soilMoisture,
+      'LED_PIN_CONTROL1':ledState,
     };
   }
 }
