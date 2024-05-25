@@ -30,6 +30,7 @@ class Sensor {
     return {
       'Humidity': humidity,
       'Temperature': temperature,
+      'SoilMoisture': soilMoisture,
     };
   }
 }
