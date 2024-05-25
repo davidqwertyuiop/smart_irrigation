@@ -3,8 +3,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_5/widgets/my_password_field.dart';
-import 'package:flutter_application_5/widgets/my_text_Field.dart';
+import 'package:flutter_application_2/widgets/my_password_field.dart';
+import 'package:flutter_application_2/widgets/my_text_Field.dart';
 import 'package:flutter_svg/svg.dart';
 
 import '../constants.dart';

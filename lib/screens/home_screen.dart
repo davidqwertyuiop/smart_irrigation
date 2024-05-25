@@ -1,8 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_5/constants.dart';
-import 'package:flutter_application_5/sensor.dart';
-import 'package:flutter_application_5/widgets/my_sensor_card.dart';
+import 'package:flutter_application_2/constants.dart';
+import 'package:flutter_application_2/sensor.dart';
+import 'package:flutter_application_2/widgets/my_sensor_card.dart';
 
 
 

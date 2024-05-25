@@ -1,7 +1,7 @@
 
 import 'package:chart_sparkline/chart_sparkline.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_5/constants.dart';
+import 'package:flutter_application_2/constants.dart';
 
 
 class MySensorCard extends StatelessWidget {
