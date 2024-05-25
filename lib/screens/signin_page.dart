@@ -43,7 +43,7 @@ class _SignInPageState extends State<SignInPage> {
             Navigator.pop(context);
           },
           // ignore: deprecated_member_use
-          icon: SvgPicture.asset('assets/images/back_arrow.svg.png', width:24, color:Colors.white)
+          icon: SvgPicture.asset('assets/images/back_arrow.svg', width:24, color: Colors.white,)
         ),
       ),
       body: SafeArea(

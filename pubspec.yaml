@@ -75,12 +75,12 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-
+    - assets/images/back_arrow.svg
     - assets/images/back_arrows.svg.png
     - assets/images/humidity_icon.png
     - assets/images/humidity_icon.png
     - assets/images/image.png
-   
+
     - assets/images/SoilMoistures.png
     - assets/images/team_illustration.png
     - assets/images/temperature_icon.png
