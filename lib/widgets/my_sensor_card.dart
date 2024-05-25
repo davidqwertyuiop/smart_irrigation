@@ -6,7 +6,7 @@ import 'package:flutter_application_2/constants.dart';
 
 class MySensorCard extends StatelessWidget {
   const MySensorCard(
-      {super.key, 
+      {super.key,
       required this.value,
       required this.name,
       required this.assetImage,

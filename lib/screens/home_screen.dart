@@ -143,6 +143,17 @@ class _HomeScreenState extends State<HomeScreen> {
                                 trendData: soilList!,
                                 linePoint: Colors.green,
                               ),
+                              const SizedBox(height: 20),
+                                  ElevatedButton(
+                                    onPressed: () async {
+                                      await sensorRef
+                                          .doc(data.docs.first.id)
+                                          .update({
+                                        'LED_PIN_CONTROL1': !ledState,
+                                      });
+                                    },
+                                    child: Text(
+                                        ledState ? 'Turn LED Off' : 'Turn LED On'),)
                               ],
                           ),
                         ),

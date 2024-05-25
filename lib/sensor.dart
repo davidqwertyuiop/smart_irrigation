@@ -6,6 +6,7 @@ class Sensor {
     required this.humidity,
     required this.temperature,
     required this.soilMoisture,
+    required this.ledState,
   });
 
   Sensor.fromJson(Map<String, Object?> json)
