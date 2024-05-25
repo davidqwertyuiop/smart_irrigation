@@ -26,14 +26,14 @@ class WelcomePage extends StatelessWidget{
             ),
           ),
           const SizedBox(height:15),
-          const Text("SIJI's IOT Project \n Multilingual Smart Irrigation Application",
+          const Text("Multilingual Smart Irrigation Application",
           style: kHeadline,
           textAlign: TextAlign.center,
           ),
           const SizedBox(height:10),
           SizedBox(
           width: MediaQuery.of(context).size.width*0.8,
-          child: const Text("Supervisor: DR O.K Ogidan",
+          child: const Text("Supervisor: DR O.K Ogidan \n Project Student: Fadeyibi Oluwasijibomi",
           style: kBodyText,
           textAlign: TextAlign.center,
           ),)
