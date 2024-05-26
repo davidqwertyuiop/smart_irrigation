@@ -3,28 +3,38 @@ import 'package:flutter/material.dart';
 
 import '../constants.dart';
 
-class MyPasswordField extends StatelessWidget {
-  const MyPasswordField({super.key,  
-   
-    required this.isPasswordVisible,
-    required this.onTap, required this.textEditingController,
-
+class MyPasswordField extends StatefulWidget {
+  const MyPasswordField({
+    super.key,
+    required this.textEditingController, required bool isPasswordVisible, required Null Function() onTap,
   });
 
-  final bool isPasswordVisible;
-  final Function onTap;
   final TextEditingController textEditingController;
+
+  @override
+  // ignore: library_private_types_in_public_api
+  _MyPasswordFieldState createState() => _MyPasswordFieldState();
+}
+
+class _MyPasswordFieldState extends State<MyPasswordField> {
+  bool isPasswordVisible = false;
+
+  void togglePasswordVisibility() {
+    setState(() {
+      isPasswordVisible = !isPasswordVisible;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 10),
       child: TextField(
-        controller: textEditingController,
+        controller: widget.textEditingController,
         style: kBodyText.copyWith(
           color: Colors.white,
         ),
-        obscureText: isPasswordVisible,
+        obscureText: !isPasswordVisible,
         keyboardType: TextInputType.text,
         textInputAction: TextInputAction.done,
         decoration: InputDecoration(
@@ -33,7 +43,7 @@ class MyPasswordField extends StatelessWidget {
             child: IconButton(
               splashColor: Colors.transparent,
               highlightColor: Colors.transparent,
-              onPressed: () {},
+              onPressed: togglePasswordVisibility,
               icon: Icon(
                 isPasswordVisible ? Icons.visibility : Icons.visibility_off,
                 color: Colors.grey,
