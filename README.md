@@ -5,7 +5,7 @@ This flutter project is to monitor a smart irrigation system.
 DHT type is just different 
 - To control a relay system and water pump, this function allows the flow of water on the soil  if the moisture
 is low with the press of a toggle button 
-
+- This application also changes Languages on the home screen
 
 A new Flutter project.
 
