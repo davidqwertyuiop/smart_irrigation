@@ -1,4 +1,11 @@
 # flutter_application_2
+This flutter project is to monitor a smart irrigation system.
+- To measure Soil moisture using Soil Moisture Sensor
+- To measure Temperature and Humidity Sensor using DHT11 or DHT22, the codes for each dht is the same the 
+DHT type is just different 
+- To control a relay system and water pump, this function allows the flow of water on the soil  if the moisture
+is low with the press of a toggle button 
+
 
 A new Flutter project.
 
