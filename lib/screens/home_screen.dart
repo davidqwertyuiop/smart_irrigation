@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/constants.dart';
 import 'package:flutter_application_2/sensor.dart';
@@ -120,16 +121,15 @@ class _HomeScreenState extends State<HomeScreen> {
                                 linePoint: Colors.green,
                               ),
                               const SizedBox(height: 20),
-                                  ElevatedButton(
-                                    onPressed: () async {
-                                      await sensorRef
+                              SwitchListTile(value: ledState, 
+                              title: Text (ledState? 'IRRIGATION STARTED' : 'IRRIGATION OFF', style: const TextStyle(color: CupertinoColors.extraLightBackgroundGray),),
+                              onChanged: (bool value) async{await sensorRef
                                           .doc(data.docs.first.id)
                                           .update({
                                         'LED_PIN_CONTROL1': !ledState,
-                                      });
-                                    },
-                                    child: Text(
-                                        ledState ? 'Turn LED Off' : 'Turn LED On'),)
+                                      }); 
+                                      },
+                                      ),
                               ],
                           ),
                         ),
