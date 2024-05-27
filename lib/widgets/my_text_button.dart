@@ -19,7 +19,7 @@ class MyTextButton extends StatelessWidget {
     decoration: BoxDecoration(color: bgColor,
     borderRadius: BorderRadius.circular(18),),
     child: TextButton(
-      style: ButtonStyle(overlayColor: MaterialStateProperty.resolveWith((states) => Colors.black12),),
+      style: ButtonStyle(overlayColor: WidgetStateProperty.resolveWith((states) => Colors.black12),),
       onPressed: onPressed,
       child:
       Text(buttonName, style: kButtonText.copyWith(color:textColor),),));
