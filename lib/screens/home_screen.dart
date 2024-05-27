@@ -33,7 +33,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(backgroundColor:kBackgroundColor,title: const Text("Smart Irrigation Readings", style: TextStyle(color: Colors.white),),),
+      appBar: AppBar(backgroundColor:kBackgroundColor,title: const Text("Smart Irrigation", style: TextStyle(color: Colors.white),),),
       body:   StreamBuilder<QuerySnapshot<Sensor>>(
       stream: sensorRef.snapshots(),
       builder: (context, snapshot) {
