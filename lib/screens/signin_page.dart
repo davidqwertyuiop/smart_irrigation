@@ -97,8 +97,8 @@ class _SignInPageState extends State<SignInPage> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        const Text(
-                          "Dont't have an account? ",
+                        Text(
+                          AppLocalizations.of(context)!.donthaveanaccount,
                           style: kBodyText,
                         ),
                         GestureDetector(
@@ -111,7 +111,7 @@ class _SignInPageState extends State<SignInPage> {
                             );
                           },
                           child: Text(
-                            'Register',
+                            AppLocalizations.of(context)!.register,
                             style: kBodyText.copyWith(
                               color: Colors.white,
                             ),
