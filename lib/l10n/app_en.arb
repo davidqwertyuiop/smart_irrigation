@@ -1,15 +1,18 @@
 {
-  "homePage": "Home Page",
-  "personalInformation": "Personal Information",
+  "Smart Irrigation": "Smart irrigation",
+  "Humidity": "Humidity",
   "name": "Name",
-  "nameHint": "Enter your name",
+  "Temperature": "Temperature",
   "email": "Email",
-  "emailHint": "Enter your email",
-  "dateOfBirth": "Date of Birth",
-  "requiredField": "Required Field",
-  "submitInfo": "Submit Info",
-  "aboutUs": "About Us",
+  "emailHint": "email or username",
+  "Soil Moisture": "Soil Moisture",
+  "Don't have an account": "Don't have an account",
+  "Welcome back User": "Welcome back User",
+  "You've been missed dear user!": "You've been missed dear user!",
+  "Sign in": "Sign in",
   "settings": "Settings",
+  "register": "Register",
   "changeLanguage": "Change Language",
-  "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  "irrigationstarted": "Irrigation Started",
+  "irrigationoff": "Irrigation OFF"
 }

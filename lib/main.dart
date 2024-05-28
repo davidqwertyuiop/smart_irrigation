@@ -55,6 +55,18 @@ class MyApp extends StatefulWidget {
       colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       useMaterial3: true,
       ),
+      localizationsDelegates: const [
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
+      supportedLocales: const [
+        Locale('en', ''),
+        Locale('fa', ''),
+        Locale('ar', ''),
+        Locale('yo-ng', ''),
+        Locale('hi', ''),
+        Locale('ha', '')],
       locale: _locale,
       home: const WelcomePage(),
     );
