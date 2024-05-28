@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_application_2/screens/screen.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -9,6 +10,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'classes/language_constants.dart';
 import 'constants.dart';
 import 'firebase_options.dart';
+import 'package:flutter_application_2/flutter_gen/gen_l10n/app_localizations.dart';
 
 
 Future<void> main() async{
@@ -56,19 +58,9 @@ class MyApp extends StatefulWidget {
       colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       useMaterial3: true,
       ),
-      localizationsDelegates: const [
-        GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-        GlobalCupertinoLocalizations.delegate,
-      ],
-      supportedLocales: const [
-        Locale('en', ''),
-        Locale('fa', ''),
-        Locale('ar', ''),
-        Locale('yo', ''),
-        Locale('hi', ''),
-        Locale('ha', '')],
-      locale: Locale('en', ''),
+      localizationsDelegates: AppLocalizations.localizationsDelegates,
+      supportedLocales: AppLocalizations.supportedLocales,
+      locale: _locale,
       home: const WelcomePage(),
     );
   }
