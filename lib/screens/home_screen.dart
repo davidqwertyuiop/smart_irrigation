@@ -1,9 +1,15 @@
+// ignore_for_file: no_leading_underscores_for_local_identifiers, use_build_context_synchronously
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/classes/language.dart';
+import 'package:flutter_application_2/classes/language_constants.dart';
 import 'package:flutter_application_2/constants.dart';
+import 'package:flutter_application_2/main.dart';
 import 'package:flutter_application_2/sensor.dart';
 import 'package:flutter_application_2/widgets/my_sensor_card.dart';
+
 
 
 
@@ -33,7 +39,28 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(backgroundColor:kBackgroundColor,title: const Text("Smart Irrigation", style: TextStyle(color: Colors.white),),),
+      appBar: AppBar(backgroundColor:kBackgroundColor,
+      title: const Text("Smart Irrigation ", style: TextStyle(color: Colors.white),),
+      actions: <Widget>[
+        Padding(padding: const EdgeInsets.all(5.0),
+        child: DropdownButton<Language>(
+          underline: const SizedBox(width: 5,), icon: const Icon(Icons.language,color: Colors.white,),
+        items: Language.languageList()
+                  .map<DropdownMenuItem<Language>>(
+                      (e) => DropdownMenuItem(
+                            value: e,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceAround,
+                              children: <Widget>[
+                                Text(e.flag,
+                                    style: const TextStyle(fontSize: 30)),
+                                Text(e.name),],),)).toList(),
+        onChanged: (Language? language) 
+        async{if(language !=null){
+          Locale _locale = await setLocale(language.languageCode);
+          MyApp.setLocale(context, _locale);
+        }  },),)
+      ]),
       body:   StreamBuilder<QuerySnapshot<Sensor>>(
       stream: sensorRef.snapshots(),
       builder: (context, snapshot) {
