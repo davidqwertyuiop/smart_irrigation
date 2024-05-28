@@ -40,7 +40,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(backgroundColor:kBackgroundColor,
-      title: const Text("Smart Irrigation ", style: TextStyle(color: Colors.white),),
+      title: Text(translation(context).smartirrigation, style: TextStyle(color: Colors.white),),
       actions: <Widget>[
         Padding(padding: const EdgeInsets.all(5.0),
         child: DropdownButton<Language>(

@@ -4,13 +4,11 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_application_2/screens/screen.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'classes/language_constants.dart';
 import 'constants.dart';
 import 'firebase_options.dart';
-import 'package:flutter_application_2/flutter_gen/gen_l10n/app_localizations.dart';
 
 
 Future<void> main() async{

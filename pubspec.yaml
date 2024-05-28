@@ -48,12 +48,13 @@ dependencies:
   shared_preferences: ^2.2.3
   get: ^4.6.6
   flutter_gen: any
-  flutter_gen/gen_l10n: any
   google_translate: ^0.0.6
+  l10n_mapper_generator: ^2.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
