@@ -4,6 +4,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_application_2/widgets/my_password_field.dart';
 import 'package:flutter_application_2/widgets/my_text_Field.dart';
 import 'package:flutter_application_2/widgets/my_text_button.dart';
@@ -63,15 +64,15 @@ class _SignInPageState extends State<SignInPage> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          const Text(
-                            "Welcome back User.",
+                           Text(
+                            AppLocalizations.of(context)!.welcomebackuser,
                             style: kHeadline,
                           ),
                           const SizedBox(
                             height: 10,
                           ),
-                          const Text(
-                            "You've been missed dear user!",
+                          Text(
+                            AppLocalizations.of(context)!.youvebeenmisseddearuser,
                             style: kBodyText2,
                           ),
                           const SizedBox(
@@ -79,7 +80,7 @@ class _SignInPageState extends State<SignInPage> {
                           ),
                            MyTextField(
                             textEditingController:_email,
-                            hintText: 'Email or username ',
+                            hintText: AppLocalizations.of(context)!.emailHint,
                             inputType: TextInputType.emailAddress,
                           ),
                           MyPasswordField(
@@ -123,7 +124,7 @@ class _SignInPageState extends State<SignInPage> {
                       height: 20,
                     ),
                     MyTextButton(
-                      buttonName: 'Sign In',
+                      buttonName: AppLocalizations.of(context)!.signin,
                       onTap: () {},
                       bgColor: Colors.white,
                       textColor: Colors.black87, onPressed: () {
