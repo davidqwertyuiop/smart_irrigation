@@ -11,7 +11,7 @@ const String ENGLISH = 'en';
 const String FARSI = 'fa';
 const String ARABIC = 'ar';
 const String HINDI = 'hi';
-const String YORUBA = 'yo-ng';
+const String YORUBA = 'yo';
 const String HAUSA = 'ha';
 
 Future<Locale> setLocale(String languageCode) async {
