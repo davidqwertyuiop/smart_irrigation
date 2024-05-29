@@ -59,7 +59,7 @@ class _HomeScreenState extends State<HomeScreen> {
         onChanged: (Language? language) 
         async{if(language !=null){
           Locale _locale = await setLocale(language.languageCode);
-          MyApp.setLocale(context, _locale);
+          MyApp.setLocale(context, Locale(language.languageCode, ''));
         }  },),)
       ]),
       body:   StreamBuilder<QuerySnapshot<Sensor>>(
