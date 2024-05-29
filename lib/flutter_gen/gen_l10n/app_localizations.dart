@@ -11,6 +11,7 @@ import 'app_localizations_fa.dart';
 import 'app_localizations_fr.dart';
 import 'app_localizations_ha.dart';
 import 'app_localizations_hi.dart';
+import 'app_localizations_ig.dart';
 import 'app_localizations_yo.dart';
 
 /// Callers can lookup localized strings with an instance of AppLocalizations
@@ -101,6 +102,7 @@ abstract class AppLocalizations {
     Locale('ha', 'NG'),
     Locale('ha'),
     Locale('hi'),
+    Locale('ig'),
     Locale('yo', 'NG'),
     Locale('yo')
   ];
@@ -217,7 +219,7 @@ class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> 
   }
 
   @override
-  bool isSupported(Locale locale) => <String>['ar', 'en', 'fa', 'fr', 'ha', 'hi', 'yo'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>['ar', 'en', 'fa', 'fr', 'ha', 'hi', 'ig', 'yo'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
@@ -249,6 +251,7 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
     case 'fr': return AppLocalizationsFr();
     case 'ha': return AppLocalizationsHa();
     case 'hi': return AppLocalizationsHi();
+    case 'ig': return AppLocalizationsIg();
     case 'yo': return AppLocalizationsYo();
   }
 

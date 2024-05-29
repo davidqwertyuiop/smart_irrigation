@@ -43,6 +43,8 @@ Locale _locale(String languageCode) {
       return const Locale(YORUBA, "");
     case HAUSA:
       return const Locale(HAUSA, "");
+    case IGBO:
+      return const Locale(IGBO, "");
     default:
       return const Locale(ENGLISH, '');
   }
