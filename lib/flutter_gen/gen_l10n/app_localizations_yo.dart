@@ -2,7 +2,7 @@ import 'app_localizations.dart';
 
 /// The translations for Yoruba (`yo`).
 class AppLocalizationsYo extends AppLocalizations {
-  AppLocalizationsYo([String locale = 'yo']) : super(locale);
+  AppLocalizationsYo([super.locale = 'yo']);
 
   @override
   String get smartIrrigation => 'Ìsọ̀rọ̀ Omi Ọlọ́gbọ́n';

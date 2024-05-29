@@ -2,7 +2,7 @@ import 'app_localizations.dart';
 
 /// The translations for Hausa (`ha`).
 class AppLocalizationsHa extends AppLocalizations {
-  AppLocalizationsHa([String locale = 'ha']) : super(locale);
+  AppLocalizationsHa([super.locale = 'ha']);
 
   @override
   String get smartIrrigation => 'Shirin Ruwa Mai Sauƙi';
