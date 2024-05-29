@@ -14,7 +14,7 @@ class Language {
       Language(4, "🇮🇳", "हिंदी", "hi"),
       Language(5, "🇳🇬", "Yoruba", "yo"),
       Language(6, "🇳🇬", "Hausa", "ha-ng"),
-      Language(7, "🗼", "FRENCH", "fr")
+      Language(7, "🏴󠁩󠁮󠁣󠁨󠁿", "French", "fr")
     ];
   }
 }
