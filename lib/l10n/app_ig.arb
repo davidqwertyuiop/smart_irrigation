@@ -1,0 +1,19 @@
+{
+    "smartIrrigation": "Ọrụ Ọkụkụ Ọlọ́gbọ́n",
+    "humidity": "Ọkụkụ",
+    "name": "Aha",
+    "temperature": "Ọnọdụ Ọkụ",
+    "email": "Ọrụ Ozi",
+    "emailHint": "Ọrụ Ozi ma ọ bụ aha onye ọrụ",
+    "soilMoisture": "Ọkụkụ Ala",
+    "donthaveanaccount": "Enweghị akụntụ",
+    "welcomebackuser": "Ọdịnaya, onye ọrụ",
+    "youveBeenMissedDearUser": "Ị dị anyị mkpa, onye ọrụ ọ̀rọ̀!",
+    "signin": "Banye",
+    "settings": "Ọrụ Ndị Ọ̀tụ̀tụ̀",
+    "register": "Debanye",
+    "changeLanguage": "Gbanwee Asụsụ",
+    "password": "Okwu ọkọlọtọ",
+    "irrigationstarted": "ỌRỤ ỌKỤKỤ BỊARA",
+    "irrigationoff": "ỌRỤ ỌKỤKỤ CHỊRỊ"
+    }
