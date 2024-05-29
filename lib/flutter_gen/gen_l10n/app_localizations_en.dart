@@ -26,13 +26,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get soilmoisture => 'Soil Moisture';
 
   @override
-  String get donthaveanaccount => 'Don\'t have an account';
+  String get donthaveanaccount => 'Don\'t have an account ?';
 
   @override
-  String get welcomebackuser => 'Welcome back User';
+  String get welcomebackuser => 'Welcome back User !';
 
   @override
-  String get youvebeenmisseddearuser => 'You\'ve been missed dear user';
+  String get youvebeenmisseddearuser => 'You\'ve been missed dear user.';
 
   @override
   String get signin => 'Sign in';
@@ -41,14 +41,14 @@ class AppLocalizationsEn extends AppLocalizations {
   String get settings => 'Settings';
 
   @override
-  String get register => 'Register';
+  String get register => ' Register ';
 
   @override
   String get changeLanguage => 'Change Language';
 
   @override
-  String get irrigationstarted => 'Irrigation Started';
+  String get irrigationstarted => 'IRRIGATION STARTED';
 
   @override
-  String get irrigationoff => 'Irrigation OFF';
+  String get irrigationoff => 'IRRIGATION OFF';
 }

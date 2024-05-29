@@ -6,7 +6,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_2/classes/language.dart';
 import 'package:flutter_application_2/classes/language_constants.dart';
 import 'package:flutter_application_2/constants.dart';
-import 'package:flutter_application_2/flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_application_2/main.dart';
 import 'package:flutter_application_2/sensor.dart';
 import 'package:flutter_application_2/widgets/my_sensor_card.dart';
@@ -59,7 +58,7 @@ class _HomeScreenState extends State<HomeScreen> {
         onChanged: (Language? language) 
         async{if(language !=null){
           Locale _locale = await setLocale(language.languageCode);
-          MyApp.setLocale(context, Locale(language.languageCode, ''));
+          MyApp.setLocale(context, _locale);
         }  },),)
       ]),
       body:   StreamBuilder<QuerySnapshot<Sensor>>(
@@ -116,7 +115,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 MySensorCard(
                                 value: data.docs.first.data().humidity,
                                 unit: '%',
-                                name: AppLocalizations.of(context)!.humidity,
+                                name: translation(context).humidity,
                                 assetImage: const AssetImage(
                                   
                                   'assets/images/humidity_icon.png',
@@ -130,7 +129,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               MySensorCard(
                                 value: data.docs.first.data().temperature,
                                 unit: '\'C',
-                                name: AppLocalizations.of(context)!.temperature,
+                                name: translation(context).temperature,
                                 assetImage: const AssetImage(
                                   'assets/images/temperature_icon.png',
                                 ),
@@ -141,7 +140,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               MySensorCard(
                                 value: data.docs.first.data().temperature,
                                 unit: '%',
-                                name: AppLocalizations.of(context)!.soilmoisture,
+                                name: translation(context).soilmoisture,
                                 assetImage: const AssetImage(
                                   'assets/images/SoilMoistures.png',
                                 ),
@@ -150,7 +149,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               ),
                               const SizedBox(height: 20),
                               SwitchListTile(value: ledState, 
-                              title: Text (ledState? AppLocalizations.of(context)!.irrigationstarted : AppLocalizations.of(context)!.irrigationoff, style: const TextStyle(color: CupertinoColors.extraLightBackgroundGray),),
+                              title: Text (ledState? translation(context).irrigationstarted : translation(context).irrigationoff, style: const TextStyle(color: CupertinoColors.extraLightBackgroundGray),),
                               onChanged: (bool value) async{await sensorRef
                                           .doc(data.docs.first.id)
                                           .update({
