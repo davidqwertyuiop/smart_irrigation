@@ -2,19 +2,19 @@ import 'app_localizations.dart';
 
 /// The translations for Yoruba (`yo`).
 class AppLocalizationsYo extends AppLocalizations {
-  AppLocalizationsYo([super.locale = 'yo']);
+  AppLocalizationsYo([String locale = 'yo']) : super(locale);
 
   @override
-  String get smartirrigation => 'Smart irrigation';
+  String get smartIrrigation => 'Ìsọ̀rọ̀ Omi Ọlọ́gbọ́n';
 
   @override
-  String get humidity => 'Humidity';
+  String get humidity => 'Ìrọ̀rọ̀';
 
   @override
   String get name => 'Orúkọ';
 
   @override
-  String get temperature => 'Temperature';
+  String get temperature => 'Ọ̀jọ́';
 
   @override
   String get email => 'Ìmọ̀ràn';
@@ -23,34 +23,37 @@ class AppLocalizationsYo extends AppLocalizations {
   String get emailHint => 'ìmọ̀ràn tàbí orúkọ oníṣe';
 
   @override
-  String get soilmoisture => 'Soil Moisture';
+  String get soilMoisture => 'Ìrọ̀rọ̀ Ilẹ̀';
 
   @override
-  String get donthaveanaccount => 'Don\'t have an account';
+  String get donthaveanaccount => 'Kò sí àpamọ́';
 
   @override
-  String get welcomebackuser => 'Welcome back User';
+  String get welcomebackuser => 'Ẹ kú àbọ̀ padà Oníṣe';
 
   @override
-  String get youvebeenmisseddearuser => 'You\'ve been missed dear user';
+  String get youveBeenMissedDearUser => 'A ti ṣe ìfẹ́ rẹ Oníṣe ọ̀rẹ́!';
 
   @override
-  String get signin => 'Sign in';
+  String get signin => 'Wọlé';
 
   @override
   String get settings => 'Ìṣètò';
 
   @override
-  String get register => 'Register';
+  String get register => 'Ṣàjèwò';
 
   @override
   String get changeLanguage => 'Ìyípadà Èdè';
 
   @override
-  String get irrigationstarted => 'Irrigation Started';
+  String get password => 'ọrọ ìpamọ́';
 
   @override
-  String get irrigationoff => 'Irrigation OFF';
+  String get irrigationstarted => 'IRRIGATION BẸ̀RẸ̀';
+
+  @override
+  String get irrigationoff => 'IRRIGATION KASẸ́';
 }
 
 /// The translations for Yoruba, as used in Nigeria (`yo_NG`).
@@ -58,7 +61,16 @@ class AppLocalizationsYoNg extends AppLocalizationsYo {
   AppLocalizationsYoNg(): super('yo_NG');
 
   @override
+  String get smartIrrigation => 'Ìsọ̀rọ̀ Omi Ọlọ́gbọ́n';
+
+  @override
+  String get humidity => 'Ìrọ̀rọ̀';
+
+  @override
   String get name => 'Orúkọ';
+
+  @override
+  String get temperature => 'Ọ̀jọ́';
 
   @override
   String get email => 'Ìmọ̀ràn';
@@ -67,8 +79,35 @@ class AppLocalizationsYoNg extends AppLocalizationsYo {
   String get emailHint => 'ìmọ̀ràn tàbí orúkọ oníṣe';
 
   @override
+  String get soilMoisture => 'Ìrọ̀rọ̀ Ilẹ̀';
+
+  @override
+  String get donthaveanaccount => 'Kò sí àpamọ́';
+
+  @override
+  String get welcomebackuser => 'Ẹ kú àbọ̀ padà Oníṣe';
+
+  @override
+  String get youveBeenMissedDearUser => 'A ti ṣe ìfẹ́ rẹ Oníṣe ọ̀rẹ́!';
+
+  @override
+  String get signin => 'Wọlé';
+
+  @override
   String get settings => 'Ìṣètò';
 
   @override
+  String get register => 'Ṣàjèwò';
+
+  @override
   String get changeLanguage => 'Ìyípadà Èdè';
+
+  @override
+  String get password => 'ọrọ ìpamọ́';
+
+  @override
+  String get irrigationstarted => 'IRRIGATION BẸ̀RẸ̀';
+
+  @override
+  String get irrigationoff => 'IRRIGATION KASẸ́';
 }

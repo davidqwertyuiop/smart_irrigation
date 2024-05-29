@@ -40,7 +40,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(backgroundColor:kBackgroundColor,
-      title: Text(translation(context).smartirrigation, style: const TextStyle(color: Colors.white),),
+      title: Text(translation(context).smartIrrigation, style: const TextStyle(color: Colors.white),),
       actions: <Widget>[
         Padding(padding: const EdgeInsets.all(5.0),
         child: DropdownButton<Language>(
@@ -140,7 +140,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               MySensorCard(
                                 value: data.docs.first.data().temperature,
                                 unit: '%',
-                                name: translation(context).soilmoisture,
+                                name: translation(context).soilMoisture,
                                 assetImage: const AssetImage(
                                   'assets/images/SoilMoistures.png',
                                 ),

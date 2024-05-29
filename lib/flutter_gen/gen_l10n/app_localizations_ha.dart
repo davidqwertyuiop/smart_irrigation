@@ -2,19 +2,19 @@ import 'app_localizations.dart';
 
 /// The translations for Hausa (`ha`).
 class AppLocalizationsHa extends AppLocalizations {
-  AppLocalizationsHa([super.locale = 'ha']);
+  AppLocalizationsHa([String locale = 'ha']) : super(locale);
 
   @override
-  String get smartirrigation => 'Smart irrigation';
+  String get smartIrrigation => 'Shirin Ruwa Mai Sauƙi';
 
   @override
-  String get humidity => 'Humidity';
+  String get humidity => 'Rututu';
 
   @override
   String get name => 'Suna';
 
   @override
-  String get temperature => 'Temperature';
+  String get temperature => 'Daga';
 
   @override
   String get email => 'Imel';
@@ -23,34 +23,37 @@ class AppLocalizationsHa extends AppLocalizations {
   String get emailHint => 'imel ko sunan mai amfani';
 
   @override
-  String get soilmoisture => 'Soil Moisture';
+  String get soilMoisture => 'Rututu na Ƙasa';
 
   @override
-  String get donthaveanaccount => 'Don\'t have an account';
+  String get donthaveanaccount => 'Ba ka da account';
 
   @override
-  String get welcomebackuser => 'Welcome back User';
+  String get welcomebackuser => 'Ku san jiya Mai amfani';
 
   @override
-  String get youvebeenmisseddearuser => 'You\'ve been missed dear user';
+  String get youveBeenMissedDearUser => 'An yi maka ƙyamar kai Mai amfani!';
 
   @override
-  String get signin => 'Sign in';
+  String get signin => 'Shiga';
 
   @override
   String get settings => 'Saituna';
 
   @override
-  String get register => 'Register';
+  String get register => 'Rajista';
 
   @override
   String get changeLanguage => 'Canza Harshe';
 
   @override
-  String get irrigationstarted => 'Irrigation Started';
+  String get password => 'kalmar wucewa';
 
   @override
-  String get irrigationoff => 'Irrigation OFF';
+  String get irrigationstarted => 'IRRIGATION FARA';
+
+  @override
+  String get irrigationoff => 'IRRIGATION KASHE';
 }
 
 /// The translations for Hausa, as used in Nigeria (`ha_NG`).
@@ -58,7 +61,16 @@ class AppLocalizationsHaNg extends AppLocalizationsHa {
   AppLocalizationsHaNg(): super('ha_NG');
 
   @override
+  String get smartIrrigation => 'Shirin Ruwa Mai Sauƙi';
+
+  @override
+  String get humidity => 'Rututu';
+
+  @override
   String get name => 'Suna';
+
+  @override
+  String get temperature => 'Daga';
 
   @override
   String get email => 'Imel';
@@ -67,8 +79,35 @@ class AppLocalizationsHaNg extends AppLocalizationsHa {
   String get emailHint => 'imel ko sunan mai amfani';
 
   @override
+  String get soilMoisture => 'Rututu na Ƙasa';
+
+  @override
+  String get donthaveanaccount => 'Ba ka da account';
+
+  @override
+  String get welcomebackuser => 'Ku san jiya Mai amfani';
+
+  @override
+  String get youveBeenMissedDearUser => 'An yi maka ƙyamar kai Mai amfani!';
+
+  @override
+  String get signin => 'Shiga';
+
+  @override
   String get settings => 'Saituna';
 
   @override
+  String get register => 'Rajista';
+
+  @override
   String get changeLanguage => 'Canza Harshe';
+
+  @override
+  String get password => 'kalmar wucewa';
+
+  @override
+  String get irrigationstarted => 'IRRIGATION FARA';
+
+  @override
+  String get irrigationoff => 'IRRIGATION KASHE';
 }

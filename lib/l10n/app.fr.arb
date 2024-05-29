@@ -1,0 +1,19 @@
+{
+    "smartIrrigation": "Irrigation Intelligente",
+    "humidity": "Humidité",
+    "name": "Nom",
+    "temperature": "Température",
+    "email": "Email",
+    "emailHint": "Email ou nom d'utilisateur",
+    "soilMoisture": "Humidité du Sol",
+    "donthaveanaccount": "Pas de compte",
+    "welcomebackuser": "Bienvenue de retour, utilisateur",
+    "youveBeenMissedDearUser": "Tu nous as manqué, cher utilisateur !",
+    "signin": "Se connecter",
+    "settings": "Paramètres",
+    "register": "S'inscrire",
+    "changeLanguage": "Changer de langue",
+    "password": "Mot de passe",
+    "irrigationstarted": "Irrigation démarrée",
+    "irrigationoff": "Irrigation arrêtée"
+    }

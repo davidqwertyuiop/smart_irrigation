@@ -3,6 +3,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/classes/language_constants.dart';
 import 'package:flutter_application_2/widgets/my_password_field.dart';
 import 'package:flutter_application_2/widgets/my_text_Field.dart';
 import 'package:flutter_svg/svg.dart';
@@ -62,8 +63,8 @@ class _RegisterPageState extends State<RegisterPage> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          const Text(
-                            "Register",
+                          Text(
+                            translation(context). register,
                             style: kHeadline,
                           ),
                           const Text(
@@ -74,12 +75,12 @@ class _RegisterPageState extends State<RegisterPage> {
                             height: 50,
                           ),
                            MyTextField(
-                            hintText: 'Name',
+                            hintText: translation(context).name,
                             inputType: TextInputType.name, textEditingController: _name,
                           
                           ),
                            MyTextField(
-                            hintText: 'Email',
+                            hintText: translation(context).email,
                             inputType: TextInputType.emailAddress, textEditingController: _email,
                           ),
                         
@@ -102,7 +103,7 @@ class _RegisterPageState extends State<RegisterPage> {
                           style: kBodyText,
                         ),
                         Text(
-                          "Sign In",
+                          translation(context).signin,
                           style: kBodyText.copyWith(
                             color: Colors.white
                           ),
@@ -113,7 +114,7 @@ class _RegisterPageState extends State<RegisterPage> {
                       height: 20,
                     ),
                     MyTextButton(
-                      buttonName: 'Register',
+                      buttonName: translation(context).register,
                       onTap: () {},
                       bgColor: Colors.white,
                       textColor: Colors.black87, onPressed: () {

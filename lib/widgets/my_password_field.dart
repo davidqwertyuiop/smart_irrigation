@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/classes/language_constants.dart';
 
 import '../constants.dart';
 
@@ -51,7 +52,7 @@ class _MyPasswordFieldState extends State<MyPasswordField> {
             ),
           ),
           contentPadding: const EdgeInsets.all(20),
-          hintText: 'Password',
+          hintText: translation(context).password,
           hintStyle: kBodyText,
           enabledBorder: OutlineInputBorder(
             borderSide: const BorderSide(

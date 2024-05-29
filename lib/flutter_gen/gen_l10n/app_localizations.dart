@@ -1,5 +1,3 @@
-// ignore_for_file: depend_on_referenced_packages
-
 import 'dart:async';
 
 import 'package:flutter/foundation.dart';
@@ -105,11 +103,11 @@ abstract class AppLocalizations {
     Locale('yo')
   ];
 
-  /// No description provided for @smartirrigation.
+  /// No description provided for @smartIrrigation.
   ///
   /// In en, this message translates to:
   /// **'Smart irrigation'**
-  String get smartirrigation;
+  String get smartIrrigation;
 
   /// No description provided for @humidity.
   ///
@@ -141,16 +139,16 @@ abstract class AppLocalizations {
   /// **'email or username'**
   String get emailHint;
 
-  /// No description provided for @soilmoisture.
+  /// No description provided for @soilMoisture.
   ///
   /// In en, this message translates to:
   /// **'Soil Moisture'**
-  String get soilmoisture;
+  String get soilMoisture;
 
   /// No description provided for @donthaveanaccount.
   ///
   /// In en, this message translates to:
-  /// **'Don\'t have an account'**
+  /// **'Don\'t have an account ? '**
   String get donthaveanaccount;
 
   /// No description provided for @welcomebackuser.
@@ -159,11 +157,11 @@ abstract class AppLocalizations {
   /// **'Welcome back User'**
   String get welcomebackuser;
 
-  /// No description provided for @youvebeenmisseddearuser.
+  /// No description provided for @youveBeenMissedDearUser.
   ///
   /// In en, this message translates to:
-  /// **'You\'ve been missed dear user'**
-  String get youvebeenmisseddearuser;
+  /// **'You\'ve been missed dear user! '**
+  String get youveBeenMissedDearUser;
 
   /// No description provided for @signin.
   ///
@@ -180,7 +178,7 @@ abstract class AppLocalizations {
   /// No description provided for @register.
   ///
   /// In en, this message translates to:
-  /// **'Register'**
+  /// **'Register '**
   String get register;
 
   /// No description provided for @changeLanguage.
@@ -189,16 +187,22 @@ abstract class AppLocalizations {
   /// **'Change Language'**
   String get changeLanguage;
 
+  /// No description provided for @password.
+  ///
+  /// In en, this message translates to:
+  /// **'password'**
+  String get password;
+
   /// No description provided for @irrigationstarted.
   ///
   /// In en, this message translates to:
-  /// **'Irrigation Started'**
+  /// **'IRRIGATION STARTED'**
   String get irrigationstarted;
 
   /// No description provided for @irrigationoff.
   ///
   /// In en, this message translates to:
-  /// **'Irrigation OFF'**
+  /// **'IRRIGATION OFF'**
   String get irrigationoff;
 }
 

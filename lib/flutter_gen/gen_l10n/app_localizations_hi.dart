@@ -2,19 +2,19 @@ import 'app_localizations.dart';
 
 /// The translations for Hindi (`hi`).
 class AppLocalizationsHi extends AppLocalizations {
-  AppLocalizationsHi([super.locale = 'hi']);
+  AppLocalizationsHi([String locale = 'hi']) : super(locale);
 
   @override
-  String get smartirrigation => 'Smart irrigation';
+  String get smartIrrigation => 'स्मार्ट सिंचाई';
 
   @override
-  String get humidity => 'Humidity';
+  String get humidity => 'आर्द्रता';
 
   @override
   String get name => 'नाम';
 
   @override
-  String get temperature => 'Temperature';
+  String get temperature => 'तापमान';
 
   @override
   String get email => 'ईमेल';
@@ -23,32 +23,35 @@ class AppLocalizationsHi extends AppLocalizations {
   String get emailHint => 'ईमेल या उपयोगकर्ता नाम';
 
   @override
-  String get soilmoisture => 'Soil Moisture';
+  String get soilMoisture => 'मृदा आर्द्रता';
 
   @override
-  String get donthaveanaccount => 'Don\'t have an account';
+  String get donthaveanaccount => 'खाता नहीं है';
 
   @override
-  String get welcomebackuser => 'Welcome back User';
+  String get welcomebackuser => 'उपयोगकर्ता, आपका स्वागत है';
 
   @override
-  String get youvebeenmisseddearuser => 'You\'ve been missed dear user';
+  String get youveBeenMissedDearUser => 'प्रिय उपयोगकर्ता, आप याद आए हैं!';
 
   @override
-  String get signin => 'Sign in';
+  String get signin => 'साइन इन करें';
 
   @override
   String get settings => 'सेटिंग्स';
 
   @override
-  String get register => 'Register';
+  String get register => 'रजिस्टर करें';
 
   @override
   String get changeLanguage => 'भाषा बदलें';
 
   @override
-  String get irrigationstarted => 'Irrigation Started';
+  String get password => 'पासवर्ड';
 
   @override
-  String get irrigationoff => 'Irrigation OFF';
+  String get irrigationstarted => 'सिंचाई शुरू हुई';
+
+  @override
+  String get irrigationoff => 'सिंचाई बंद';
 }

@@ -13,7 +13,8 @@ class Language {
       Language(3, "🇸🇦", "اَلْعَرَبِيَّةُ", "ar"),
       Language(4, "🇮🇳", "हिंदी", "hi"),
       Language(5, "🇳🇬", "Yoruba", "yo"),
-      Language(6, "🇳🇬", "Hausa", "ha-ng")
+      Language(6, "🇳🇬", "Hausa", "ha-ng"),
+      Language(7, "🗼", "FRENCH", "fr")
     ];
   }
 }

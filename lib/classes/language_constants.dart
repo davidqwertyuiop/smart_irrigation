@@ -11,6 +11,7 @@ const String ENGLISH = 'en';
 const String FARSI = 'fa';
 const String ARABIC = 'ar';
 const String HINDI = 'hi';
+const String FRENCH = 'fr';
 const String YORUBA = 'yo';
 const String HAUSA = 'ha';
 
@@ -30,6 +31,8 @@ Locale _locale(String languageCode) {
   switch (languageCode) {
     case ENGLISH:
       return const Locale(ENGLISH, '');
+    case FRENCH:
+      return const Locale(FRENCH, "");
     case FARSI:
       return const Locale(FARSI, "");
     case ARABIC:

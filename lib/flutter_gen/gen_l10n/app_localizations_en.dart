@@ -2,10 +2,10 @@ import 'app_localizations.dart';
 
 /// The translations for English (`en`).
 class AppLocalizationsEn extends AppLocalizations {
-  AppLocalizationsEn([super.locale = 'en']);
+  AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get smartirrigation => 'Smart irrigation';
+  String get smartIrrigation => 'Smart irrigation';
 
   @override
   String get humidity => 'Humidity';
@@ -23,16 +23,16 @@ class AppLocalizationsEn extends AppLocalizations {
   String get emailHint => 'email or username';
 
   @override
-  String get soilmoisture => 'Soil Moisture';
+  String get soilMoisture => 'Soil Moisture';
 
   @override
-  String get donthaveanaccount => 'Don\'t have an account ?';
+  String get donthaveanaccount => 'Don\'t have an account ? ';
 
   @override
-  String get welcomebackuser => 'Welcome back User !';
+  String get welcomebackuser => 'Welcome back User';
 
   @override
-  String get youvebeenmisseddearuser => 'You\'ve been missed dear user.';
+  String get youveBeenMissedDearUser => 'You\'ve been missed dear user! ';
 
   @override
   String get signin => 'Sign in';
@@ -41,10 +41,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get settings => 'Settings';
 
   @override
-  String get register => ' Register ';
+  String get register => 'Register ';
 
   @override
   String get changeLanguage => 'Change Language';
+
+  @override
+  String get password => 'password';
 
   @override
   String get irrigationstarted => 'IRRIGATION STARTED';

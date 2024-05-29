@@ -72,7 +72,7 @@ class _SignInPageState extends State<SignInPage> {
                             height: 10,
                           ),
                           Text(
-                            AppLocalizations.of(context)!.youvebeenmisseddearuser,
+                            AppLocalizations.of(context)!.youveBeenMissedDearUser,
                             style: kBodyText2,
                           ),
                           const SizedBox(

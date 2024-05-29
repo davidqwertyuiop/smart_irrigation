@@ -2,19 +2,19 @@ import 'app_localizations.dart';
 
 /// The translations for Arabic (`ar`).
 class AppLocalizationsAr extends AppLocalizations {
-  AppLocalizationsAr([super.locale = 'ar']);
+  AppLocalizationsAr([String locale = 'ar']) : super(locale);
 
   @override
-  String get smartirrigation => 'Smart irrigation';
+  String get smartIrrigation => 'الرياحه الذكية';
 
   @override
-  String get humidity => 'Humidity';
+  String get humidity => 'الرطوبة';
 
   @override
   String get name => 'الاسم';
 
   @override
-  String get temperature => 'Temperature';
+  String get temperature => 'الحرارة';
 
   @override
   String get email => 'البريد الإلكتروني';
@@ -23,32 +23,35 @@ class AppLocalizationsAr extends AppLocalizations {
   String get emailHint => 'البريد الإلكتروني أو اسم المستخدم';
 
   @override
-  String get soilmoisture => 'Soil Moisture';
+  String get soilMoisture => 'رطوبة التربة';
 
   @override
-  String get donthaveanaccount => 'Don\'t have an account';
+  String get donthaveanaccount => 'لا توجد حساب';
 
   @override
   String get welcomebackuser => 'Welcome back User';
 
   @override
-  String get youvebeenmisseddearuser => 'You\'ve been missed dear user';
+  String get youveBeenMissedDearUser => 'لقد نسيتمك مستخدم عزيز!';
 
   @override
-  String get signin => 'Sign in';
+  String get signin => 'الدخول';
 
   @override
   String get settings => 'الإعدادات';
 
   @override
-  String get register => 'Register';
+  String get register => 'تسجيل';
 
   @override
   String get changeLanguage => 'تغيير اللغة';
 
   @override
-  String get irrigationstarted => 'Irrigation Started';
+  String get password => 'كلمة المرور';
 
   @override
-  String get irrigationoff => 'Irrigation OFF';
+  String get irrigationstarted => 'بدأ الري';
+
+  @override
+  String get irrigationoff => 'إيقاف الري';
 }
