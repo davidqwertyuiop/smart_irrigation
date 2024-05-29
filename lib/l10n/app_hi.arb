@@ -12,5 +12,8 @@
 "Sign in": "साइन इन करें",
 "settings": "सेटिंग्स",
 "Register": "रजिस्टर करें",
-"changeLanguage": "भाषा बदलें"
+"changeLanguage": "भाषा बदलें",
+"password": "पासवर्ड",
+"irrigationstarted": "सिंचाई शुरू हुई",
+"irrigationoff": "सिंचाई बंद"
 }

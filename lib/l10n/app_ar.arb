@@ -12,5 +12,8 @@
 "Sign in": "الدخول",
 "settings": "الإعدادات",
 "Register": "تسجيل",
-"changeLanguage": "تغيير اللغة"
+"password": "كلمة المرور",
+"changeLanguage": "تغيير اللغة",
+"irrigationstarted": "بدأ الري",
+"irrigationoff": "إيقاف الري"
 }

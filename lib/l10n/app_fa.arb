@@ -12,5 +12,8 @@
 "Sign in": "ورود",
 "settings": "تنظیمات",
 "Register": "ثبت نام",
-"changeLanguage": "تغییر زبان"
+"changeLanguage": "تغییر زبان",
+"password": "رمز عبور",
+"irrigationstarted": "آبیاری شروع شد",
+"irrigationoff": "آبیاری خاموش"
 }

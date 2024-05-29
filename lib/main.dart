@@ -58,7 +58,7 @@ class MyApp extends StatefulWidget {
       ),
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      locale: Locale('en',),
+      locale: _locale,
       home: const WelcomePage(),
     );
   }
