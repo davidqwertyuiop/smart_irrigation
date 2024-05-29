@@ -36,7 +36,7 @@ Locale _locale(String languageCode) {
       return const Locale(ARABIC, "");
     case HINDI:
       return const Locale(HINDI, "");
-    case YORUBA: 
+    case YORUBA:
       return const Locale(YORUBA, "");
     case HAUSA:
       return const Locale(HAUSA, "");
