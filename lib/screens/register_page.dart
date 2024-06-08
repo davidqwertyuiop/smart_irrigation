@@ -8,7 +8,7 @@ import 'package:flutter_application_2/widgets/my_password_field.dart';
 import 'package:flutter_application_2/widgets/my_text_Field.dart';
 import 'package:flutter_svg/svg.dart';
 
-import '../constants.dart';
+import '../dart_files/constants.dart';
 import '../widgets/my_text_button.dart';
 import 'home_screen.dart';
 

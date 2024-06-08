@@ -6,8 +6,8 @@ import 'package:flutter_application_2/screens/screen.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'classes/language_constants.dart';
-import 'constants.dart';
-import 'firebase_options.dart';
+import 'dart_files/constants.dart';
+import 'dart_files/firebase_options.dart';
 import 'flutter_gen/gen_l10n/app_localizations.dart';
 
 

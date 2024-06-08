@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_2/constants.dart';
+import 'package:flutter_application_2/dart_files/constants.dart';
 import 'package:flutter_application_2/screens/screen.dart';
 import 'package:flutter_application_2/widgets/widgets.dart';
 

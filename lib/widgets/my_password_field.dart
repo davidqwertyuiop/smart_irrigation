@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/classes/language_constants.dart';
 
-import '../constants.dart';
+import '../dart_files/constants.dart';
 
 class MyPasswordField extends StatefulWidget {
   const MyPasswordField({

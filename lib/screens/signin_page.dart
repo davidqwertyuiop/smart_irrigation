@@ -10,7 +10,7 @@ import 'package:flutter_application_2/widgets/my_text_Field.dart';
 import 'package:flutter_application_2/widgets/my_text_button.dart';
 import 'package:flutter_svg/svg.dart';
 
-import '../constants.dart';
+import '../dart_files/constants.dart';
 import '../screens/screen.dart';
 
 
