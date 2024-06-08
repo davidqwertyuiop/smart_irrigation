@@ -12,9 +12,9 @@ const String FARSI = 'fa';
 const String ARABIC = 'ar';
 const String HINDI = 'hi';
 const String FRENCH = 'fr';
-const String YORUBA = 'yo';
-const String HAUSA = 'ha';
-const String IGBO = 'ig';
+const String YORUBA = 'bg';
+const String HAUSA = 'zh';
+const String IGBO = 'az';
 
 Future<Locale> setLocale(String languageCode) async {
   SharedPreferences _prefs = await SharedPreferences.getInstance();

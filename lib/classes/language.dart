@@ -12,10 +12,10 @@ class Language {
       Language(2, "🇺🇸", "English", "en"),
       Language(3, "🇸🇦", "اَلْعَرَبِيَّةُ", "ar"),
       Language(4, "🇮🇳", "हिंदी", "hi"),
-      Language(5, "🇳🇬", "Yoruba", "yo"),
-      Language(6, "🇳🇬", "Hausa", "ha-ng"),
+      Language(5, "🇳🇬", "Yoruba", "bg"),
+      Language(6, "🇳🇬", "Hausa", "zh"),
       Language(7, "🗼", "French", "fr"),
-      Language(8, "🇳🇬", "Igbo", "ig")
+      Language(8, "🇳🇬", "Igbo", "az")
     ];
   }
 }

@@ -1,8 +1,8 @@
 import 'app_localizations.dart';
 
-/// The translations for Igbo (`ig`).
-class AppLocalizationsIg extends AppLocalizations {
-  AppLocalizationsIg([super.locale = 'ig']);
+/// The translations for Azerbaijani (`az`).
+class AppLocalizationsAz extends AppLocalizations {
+  AppLocalizationsAz([super.locale = 'az']);
 
   @override
   String get smartIrrigation => 'Ọrụ Ọkụkụ Ọlọ́gbọ́n';

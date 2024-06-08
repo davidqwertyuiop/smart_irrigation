@@ -42,9 +42,9 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(backgroundColor:kBackgroundColor,
       title: Text(translation(context).smartIrrigation, style: const TextStyle(color: Colors.white),),
       actions: <Widget>[
-        Padding(padding: const EdgeInsets.all(5.0),
+        Padding(padding: const EdgeInsets.all(8.0),
         child: DropdownButton<Language>(
-          underline: const SizedBox(width: 5,), icon: const Icon(Icons.language,color: Colors.white,),
+          underline: const SizedBox(width: 3,), icon: const Icon(Icons.language,color: Colors.white,),
         items: Language.languageList()
                   .map<DropdownMenuItem<Language>>(
                       (e) => DropdownMenuItem(
@@ -55,7 +55,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 Text(e.flag,
                                     style: const TextStyle(fontSize: 30)),
                                 Text(e.name),],),)).toList(),
-        onChanged: (Language? language) 
+        onChanged: (Language? language)
         async{if(language !=null){
           Locale _locale = await setLocale(language.languageCode);
           MyApp.setLocale(context, _locale);
