@@ -33,7 +33,7 @@ class WelcomePage extends StatelessWidget{
           const SizedBox(height:10),
           SizedBox(
           width: MediaQuery.of(context).size.width*0.8,
-          child: const Text("Supervisor: DR O.K Ogidan \n Project Student: Fadeyibi Oluwasijibomi",
+          child: const Text("Supervisor: DR O.K Ogidan \n Project By : Fadeyibi Oluwasijibomi",
           style: kBodyText,
           textAlign: TextAlign.center,
           ),)
