@@ -42,7 +42,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(backgroundColor:kBackgroundColor,
       title: Text(translation(context).smartIrrigation, style: const TextStyle(color: Colors.white),),
       actions: <Widget>[
-        Padding(padding: const EdgeInsets.all(8.0),
+        Padding(padding: EdgeInsets.zero,
         child: DropdownButton<Language>(
           underline: const SizedBox(width: 3,), icon: const Icon(Icons.language,color: Colors.white,),
         items: Language.languageList()
