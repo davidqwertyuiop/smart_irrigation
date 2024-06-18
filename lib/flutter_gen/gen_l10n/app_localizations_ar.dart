@@ -54,4 +54,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get irrigationoff => 'إيقاف الري';
+
+  @override
+  String get multilingualsmartIrrigationapplication => 'تطبيق الري الذكي متعدد اللغات';
 }

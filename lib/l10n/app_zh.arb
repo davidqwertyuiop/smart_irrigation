@@ -1,20 +1,20 @@
 {
-    "smartIrrigation": "Shirin Ruwa Mai Sauƙi",
-    "humidity": "Rututu",
+    "smartIrrigation": "Kaifin ban ruwa",
+    "humidity": "Tawali’u",
     "name": "Suna",
-    "temperature": "Daga",
+    "temperature": " Yanayin zafi",
     "email": "Imel",
     "emailHint": "imel ko sunan mai amfani",
-    "soilMoisture": "Rututu na Ƙasa",
-    "donthaveanaccount": "Ba ka da account",
-    "welcomebackuser": "Ku san jiya Mai amfani",
-    "youveBeenMissedDearUser": "An yi maka ƙyamar kai Mai amfani!",
-    "signin": "Shiga",
+    "soilMoisture": "Tawali’u Danshi na kasa",
+    "donthaveanaccount": "Ba ki da asusu",
+    "welcomebackuser": "Barka da dawowa",
+    "youveBeenMissedDearUser": "Mun yi kewar ku masoyi mai anfani!",
+    "signin": "Shiga ciki",
     "settings": "Saituna",
-    "register": "Rajista",
-    "changeLanguage": "Canza Harshe",
-    "password": "kalmar wucewa",
-    "irrigationstarted": "IRRIGATION FARA",
-    "irrigationoff": "IRRIGATION KASHE"
-
-    }
+    "register": "Yin rijista",
+    "changeLanguage": " Zabi harshe",
+    "password": " Kalmar sirri",
+    "irrigationstarted": " Fara ban ruwa",
+    "irrigationoff": "Ban ruwa yana tsayawa",
+    "multilingualsmartIrrigationapplication":"Man hajar wayar salula mai kaifin basira ta ban ruwa ta harsuna da dama"
+}

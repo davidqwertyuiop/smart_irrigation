@@ -15,6 +15,7 @@
   "changeLanguage": "Change Language",
   "password": "password",
   "irrigationstarted": "IRRIGATION STARTED",
-  "irrigationoff": "IRRIGATION OFF"
+  "irrigationoff": "IRRIGATION OFF",
+  "multilingualsmartIrrigationapplication":"Multilingual Smart Irrigation Application"
 
 }
