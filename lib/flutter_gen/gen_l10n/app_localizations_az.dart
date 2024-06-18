@@ -5,40 +5,40 @@ class AppLocalizationsAz extends AppLocalizations {
   AppLocalizationsAz([super.locale = 'az']);
 
   @override
-  String get smartIrrigation => 'Ọrụ Ọkụkụ Ọlọ́gbọ́n';
+  String get smartIrrigation => 'nkà mgbanye mmiri';
 
   @override
-  String get humidity => 'Ọkụkụ';
+  String get humidity => 'iru mmiri';
 
   @override
-  String get name => 'Aha';
+  String get name => 'Afam';
 
   @override
-  String get temperature => 'Ọnọdụ Ọkụ';
+  String get temperature => 'okpomọkụ';
 
   @override
-  String get email => 'Ọrụ Ozi';
+  String get email => 'ime luck';
 
   @override
-  String get emailHint => 'Ọrụ Ozi ma ọ bụ aha onye ọrụ';
+  String get emailHint => 'ihe ngosi imelu';
 
   @override
   String get soilMoisture => 'Ọkụkụ Ala';
 
   @override
-  String get donthaveanaccount => 'Enweghị akụntụ';
+  String get donthaveanaccount => 'I nweghị akaụntụ';
 
   @override
-  String get welcomebackuser => 'Ọdịnaya, onye ọrụ';
+  String get welcomebackuser => 'nnọọ onye ọrụ';
 
   @override
-  String get youveBeenMissedDearUser => 'Ị dị anyị mkpa, onye ọrụ ọ̀rọ̀!';
+  String get youveBeenMissedDearUser => 'Ị gụọla anyị agụụ, ezi onye ahịa!';
 
   @override
   String get signin => 'Banye';
 
   @override
-  String get settings => 'Ọrụ Ndị Ọ̀tụ̀tụ̀';
+  String get settings => 'nhazi';
 
   @override
   String get register => 'Debanye';
@@ -47,11 +47,14 @@ class AppLocalizationsAz extends AppLocalizations {
   String get changeLanguage => 'Gbanwee Asụsụ';
 
   @override
-  String get password => 'Okwu ọkọlọtọ';
+  String get password => 'mbanye/ike ngafe';
 
   @override
-  String get irrigationstarted => 'ỌRỤ ỌKỤKỤ BỊARA';
+  String get irrigationstarted => 'mbido ọgbụgba mmiri ';
 
   @override
-  String get irrigationoff => 'ỌRỤ ỌKỤKỤ CHỊRỊ';
+  String get irrigationoff => 'nkwụsị ọgbụgba mmiri';
+
+  @override
+  String get multilingualsmartIrrigationapplication => 'ngwa mbugharị nkà ọgbụgba mmiri ọtụtụ asụsụ';
 }

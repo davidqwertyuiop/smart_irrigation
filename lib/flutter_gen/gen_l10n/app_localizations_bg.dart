@@ -5,40 +5,40 @@ class AppLocalizationsBg extends AppLocalizations {
   AppLocalizationsBg([super.locale = 'bg']);
 
   @override
-  String get smartIrrigation => 'Ìsọ̀rọ̀ Omi Ọlọ́gbọ́n';
+  String get smartIrrigation => 'ìfòye-bomirin ilẹ';
 
   @override
-  String get humidity => 'Ìrọ̀rọ̀';
+  String get humidity => 'kurukuru inu afẹfẹ';
 
   @override
   String get name => 'Orúkọ';
 
   @override
-  String get temperature => 'Ọ̀jọ́';
+  String get temperature => 'ìgbóná';
 
   @override
-  String get email => 'Ìmọ̀ràn';
+  String get email => 'ímeèlì';
 
   @override
-  String get emailHint => 'ìmọ̀ràn tàbí orúkọ oníṣe';
+  String get emailHint => 'òfìri ímeèlì';
 
   @override
-  String get soilMoisture => 'Ìrọ̀rọ̀ Ilẹ̀';
+  String get soilMoisture => 'ìrinmi inú ilẹ̀';
 
   @override
-  String get donthaveanaccount => 'Kò sí àpamọ́';
+  String get donthaveanaccount => 'O kò ní akanti';
 
   @override
-  String get welcomebackuser => 'Ẹ kú àbọ̀ padà Oníṣe';
+  String get welcomebackuser => 'Kaabọ padà Oníṣe';
 
   @override
-  String get youveBeenMissedDearUser => 'A ti ṣe ìfẹ́ rẹ Oníṣe ọ̀rẹ́!';
+  String get youveBeenMissedDearUser => 'Alońkan ọ̀wọ́n, ó pẹ́ tí a tí rí ọ !';
 
   @override
-  String get signin => 'Wọlé';
+  String get signin => 'Ṣètò àtiwọlé/ṣètò àtiwọlé';
 
   @override
-  String get settings => 'Ìṣètò';
+  String get settings => 'ìṣètò ní ẹsẹẹsẹ';
 
   @override
   String get register => 'Ṣàjèwò';
@@ -47,11 +47,14 @@ class AppLocalizationsBg extends AppLocalizations {
   String get changeLanguage => 'Ìyípadà Èdè';
 
   @override
-  String get password => 'ọrọ ìpamọ́';
+  String get password => 'ọrọ-ìfiwọlé';
 
   @override
-  String get irrigationstarted => 'IBOMIRIN';
+  String get irrigationstarted => 'ìbomirin ilẹ bẹ̀rẹ̀';
 
   @override
   String get irrigationoff => 'MABOMI';
+
+  @override
+  String get multilingualsmartIrrigationapplication => 'irinṣẹ ìfòye-bomirin ilẹ alágbèékà alèdè-púpọ̀';
 }

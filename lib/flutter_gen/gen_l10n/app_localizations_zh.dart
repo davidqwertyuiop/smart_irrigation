@@ -5,16 +5,16 @@ class AppLocalizationsZh extends AppLocalizations {
   AppLocalizationsZh([super.locale = 'zh']);
 
   @override
-  String get smartIrrigation => 'Shirin Ruwa Mai Sauƙi';
+  String get smartIrrigation => 'Kaifin ban ruwa';
 
   @override
-  String get humidity => 'Rututu';
+  String get humidity => 'Tawali’u';
 
   @override
   String get name => 'Suna';
 
   @override
-  String get temperature => 'Daga';
+  String get temperature => ' Yanayin zafi';
 
   @override
   String get email => 'Imel';
@@ -23,35 +23,38 @@ class AppLocalizationsZh extends AppLocalizations {
   String get emailHint => 'imel ko sunan mai amfani';
 
   @override
-  String get soilMoisture => 'Rututu na Ƙasa';
+  String get soilMoisture => 'Tawali’u Danshi na kasa';
 
   @override
-  String get donthaveanaccount => 'Ba ka da account';
+  String get donthaveanaccount => 'Ba ki da asusu';
 
   @override
-  String get welcomebackuser => 'Ku san jiya Mai amfani';
+  String get welcomebackuser => 'Barka da dawowa';
 
   @override
-  String get youveBeenMissedDearUser => 'An yi maka ƙyamar kai Mai amfani!';
+  String get youveBeenMissedDearUser => 'Mun yi kewar ku masoyi mai anfani!';
 
   @override
-  String get signin => 'Shiga';
+  String get signin => 'Shiga ciki';
 
   @override
   String get settings => 'Saituna';
 
   @override
-  String get register => 'Rajista';
+  String get register => 'Yin rijista';
 
   @override
-  String get changeLanguage => 'Canza Harshe';
+  String get changeLanguage => ' Zabi harshe';
 
   @override
-  String get password => 'kalmar wucewa';
+  String get password => ' Kalmar sirri';
 
   @override
-  String get irrigationstarted => 'IRRIGATION FARA';
+  String get irrigationstarted => ' Fara ban ruwa';
 
   @override
-  String get irrigationoff => 'IRRIGATION KASHE';
+  String get irrigationoff => 'Ban ruwa yana tsayawa';
+
+  @override
+  String get multilingualsmartIrrigationapplication => 'Man hajar wayar salula mai kaifin basira ta ban ruwa ta harsuna da dama';
 }

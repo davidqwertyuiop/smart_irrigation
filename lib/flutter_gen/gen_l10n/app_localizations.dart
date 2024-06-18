@@ -206,6 +206,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'IRRIGATION OFF'**
   String get irrigationoff;
+
+  /// No description provided for @multilingualsmartIrrigationapplication.
+  ///
+  /// In en, this message translates to:
+  /// **'Multilingual Smart Irrigation Application'**
+  String get multilingualsmartIrrigationapplication;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

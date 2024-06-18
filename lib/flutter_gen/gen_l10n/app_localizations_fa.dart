@@ -54,4 +54,7 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get irrigationoff => 'آبیاری خاموش';
+
+  @override
+  String get multilingualsmartIrrigationapplication => 'Multilingual Smart Irrigation Application';
 }
