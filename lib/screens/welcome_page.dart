@@ -26,7 +26,7 @@ class WelcomePage extends StatelessWidget{
             ),
           ),
           const SizedBox(height:15),
-          const Text("Multilingual Smart Irrigation Application",
+          Text(translation(context).multilingualsmartIrrigationapplication,
           style: kHeadline,
           textAlign: TextAlign.center,
           ),
