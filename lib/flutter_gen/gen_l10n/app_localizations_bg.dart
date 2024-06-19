@@ -26,22 +26,22 @@ class AppLocalizationsBg extends AppLocalizations {
   String get soilMoisture => 'ìrinmi inú ilẹ̀';
 
   @override
-  String get donthaveanaccount => 'O kò ní akanti';
+  String get donthaveanaccount => 'O kò ní akanti ? ';
 
   @override
-  String get welcomebackuser => 'Kaabọ padà Oníṣe';
+  String get welcomebackuser => 'Kaabọ padà Oníse';
 
   @override
   String get youveBeenMissedDearUser => 'Alońkan ọ̀wọ́n, ó pẹ́ tí a tí rí ọ !';
 
   @override
-  String get signin => 'Ṣètò àtiwọlé/ṣètò àtiwọlé';
+  String get signin => 'Sètò àtiwọlé/Sètò àtiwọlé';
 
   @override
   String get settings => 'ìṣètò ní ẹsẹẹsẹ';
 
   @override
-  String get register => 'Ṣàjèwò';
+  String get register => 'Sàjèwò';
 
   @override
   String get changeLanguage => 'Ìyípadà Èdè';
@@ -56,5 +56,5 @@ class AppLocalizationsBg extends AppLocalizations {
   String get irrigationoff => 'MABOMI';
 
   @override
-  String get multilingualsmartIrrigationapplication => 'irinṣẹ ìfòye-bomirin ilẹ alágbèékà alèdè-púpọ̀';
+  String get multilingualsmartIrrigationapplication => 'irinsẹ ìfòye-bomirin ilẹ alágbèékà alèdè-púpọ̀';
 }
