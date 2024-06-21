@@ -48,7 +48,7 @@ class WelcomePage extends StatelessWidget{
             Expanded(child: 
             MyTextButton(
               bgColor: Colors.white,
-              buttonName: 'Register',
+              buttonName: translation(context).register,
               onPressed: () {
                 Navigator.push(context, CupertinoPageRoute(builder: (context)=>const RegisterPage())
             );},
@@ -57,7 +57,7 @@ class WelcomePage extends StatelessWidget{
             Expanded(child: 
             MyTextButton(
               bgColor: Colors.transparent,
-              buttonName: 'Sign in',
+              buttonName: translation(context).signin,
               onPressed: () {
                 Navigator.push(context, CupertinoPageRoute(builder: (context)=>   const SignInPage(),
                 )); 
