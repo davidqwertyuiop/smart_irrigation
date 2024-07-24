@@ -99,7 +99,10 @@ class _HomeScreenState extends State<HomeScreen> {
          soilList!.removeAt(0);
         }
 
-        final bool ledState = data.docs.first.data().ledState;
+        final bool ledState1 = data.docs.first.data().ledState1;
+        final bool ledState2 = data.docs.first.data().ledState2;
+        final bool ledState3 = data.docs.first.data().ledState3;
+        final bool ledState4 = data.docs.first.data().ledState4;
 
  
       
@@ -148,12 +151,41 @@ class _HomeScreenState extends State<HomeScreen> {
                                 linePoint: Colors.green,
                               ),
                               const SizedBox(height: 20),
-                              SwitchListTile(value: ledState, 
-                              title: Text (ledState? translation(context).irrigationstarted : translation(context).irrigationoff, style: const TextStyle(color: CupertinoColors.extraLightBackgroundGray),),
+                              SwitchListTile(value: ledState1, 
+                              title: Text (ledState1? translation(context).irrigationstarted : translation(context).irrigationoff, style: const TextStyle(color: CupertinoColors.extraLightBackgroundGray),),
                               onChanged: (bool value) async{await sensorRef
                                           .doc(data.docs.first.id)
                                           .update({
-                                        'LED_PIN_CONTROL1': !ledState,
+                                        'LED_PIN_CONTROL1': !ledState1,
+                                      }); 
+                                      },
+                                      ),
+                                      const SizedBox(height: 20),
+                              SwitchListTile(value: ledState2, 
+                              title: Text (ledState2? translation(context).irrigationstarted : translation(context).irrigationoff, style: const TextStyle(color: CupertinoColors.extraLightBackgroundGray),),
+                              onChanged: (bool value) async{await sensorRef
+                                          .doc(data.docs.first.id)
+                                          .update({
+                                        'LED_PIN_CONTROL2': !ledState2,
+                                      }); 
+                                      },
+                                      ),
+                                      const SizedBox(height: 20),
+                              SwitchListTile(value: ledState3, 
+                              title: Text (ledState3? translation(context).irrigationstarted : translation(context).irrigationoff, style: const TextStyle(color: CupertinoColors.extraLightBackgroundGray),),
+                              onChanged: (bool value) async{await sensorRef
+                                          .doc(data.docs.first.id)
+                                          .update({
+                                        'LED_PIN_CONTROL3': !ledState3,
+                                      }); 
+                                      },
+                                      ),
+                              SwitchListTile(value: ledState4, 
+                              title: Text (ledState4? translation(context).irrigationstarted : translation(context).irrigationoff, style: const TextStyle(color: CupertinoColors.extraLightBackgroundGray),),
+                              onChanged: (bool value) async{await sensorRef
+                                          .doc(data.docs.first.id)
+                                          .update({
+                                        'LED_PIN_CONTROL4': !ledState4,
                                       }); 
                                       },
                                       ),
