@@ -156,7 +156,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               onChanged: (bool value) async{await sensorRef
                                           .doc(data.docs.first.id)
                                           .update({
-                                        'LED_PIN_CONTROL1': !ledState1,
+                                        'LED_PIN_CONTROL1': (!ledState1).toString(),
                                       }); 
                                       },
                                       ),
@@ -166,7 +166,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               onChanged: (bool value) async{await sensorRef
                                           .doc(data.docs.first.id)
                                           .update({
-                                        'LED_PIN_CONTROL2': !ledState2,
+                                        'LED_PIN_CONTROL2': (!ledState2).toString(),
                                       }); 
                                       },
                                       ),
@@ -176,7 +176,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               onChanged: (bool value) async{await sensorRef
                                           .doc(data.docs.first.id)
                                           .update({
-                                        'LED_PIN_CONTROL3': !ledState3,
+                                        'LED_PIN_CONTROL3': (!ledState3).toString(),
                                       }); 
                                       },
                                       ),
@@ -185,7 +185,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               onChanged: (bool value) async{await sensorRef
                                           .doc(data.docs.first.id)
                                           .update({
-                                        'LED_PIN_CONTROL4': !ledState4,
+                                        'LED_PIN_CONTROL4': (!ledState4).toString(),
                                       }); 
                                       },
                                       ),

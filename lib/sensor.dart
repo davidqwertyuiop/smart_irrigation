@@ -25,17 +25,17 @@ class Sensor {
                 : double.parse(json['SoilMoisture']! as String),
             ledState1: json['LED_PIN_CONTROL1'] == null
                 ? false
-                : json['LED_PIN_CONTROL1'] as bool,
+                : (json['LED_PIN_CONTROL1']  == "true" ? true : false),
             ledState2: json['LED_PIN_CONTROL2'] == null
                 ? false
-                : json['LED_PIN_CONTROL2'] as bool,
+                : (json['LED_PIN_CONTROL2']  == "true" ? true : false),
             ledState3: json['LED_PIN_CONTROL3'] == null
                 ? false
-                : json['LED_PIN_CONTROL3'] as bool,
+                : (json['LED_PIN_CONTROL3']  == "true" ? true : false),
             ledState4: json['LED_PIN_CONTROL4'] == null
                 ? false
-                : json['LED_PIN_CONTROL4'] as bool,
-        );
+                : (json['LED_PIN_CONTROL4']  == "true" ? true : false),
+      );
 
   final double humidity;
   final double temperature;
