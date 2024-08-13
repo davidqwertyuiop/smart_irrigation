@@ -8,7 +8,7 @@ is low with the press of a toggle button
 - This application also changes Languages on the home screen
 - The flutter ui can be gotten from any UI on the internet
 - The sdk environment used was 3.22, note that the java version must correspond to the build.gradle  file runtime
-
+- the arduino file is in project_2_new.ino
 A new Flutter project.
 
 ## Getting Started
