@@ -11,10 +11,9 @@ is low with the press of a toggle button
 - the arduino file is in project_2_new.ino
 A new Flutter project.
 For android Display
-<img width="138" alt="Picture2" src="https://github.com/user-attachm<img width="158" alt="Picture1" src="https://github.com/user-attachments/assets/ad4241dd-18de-44fd-a623-503766bb7b35" />
-ents/assets/ccc87f55-7fa6-47c3-b586-6f7a74966e5b" />
+<img width="138" alt="Picture2" src="https://github.com/user-attachments/assets/5db57922-5c0a-431e-b737-62ce14873dfb" />
 
-![Uploading Picture1.png…]()
+<img width="158" alt="Picture1" src="https://github.com/user-attachments/assets/a287b1eb-a244-4954-9814-f937da4b9d24" />
 
 ![Picture3](https://github.com/user-attachments/assets/8f9c100f-199f-488d-ac41-4d33e81a3608)
 
