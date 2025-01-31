@@ -10,6 +10,8 @@ is low with the press of a toggle button
 - The sdk environment used was 3.22, note that the java version must correspond to the build.gradle  file runtime
 - the arduino file is in project_2_new.ino
 A new Flutter project.
+<img width="138" alt="Picture2" src="https://github.com/user-attachments/assets/ccc87f55-7fa6-47c3-b586-6f7a74966e5b" />
+<img width="158" alt="Picture1" src="https://github.com/user-attachments/assets/4472d300-891b-4873-8a2d-f9c1ef70f267" />
 
 ## Getting Started
 
